@@ -23,7 +23,7 @@ In-Depth-Stuff:
             if you generated a data set with the following parameters:
 
                 Function: Y=2X+4
-                Function_Domain(2, 9)
+                Function_Domain: "2-9"
                 Amount_Of_Coordinates(4)
 
             Your .txt file would look like this:
@@ -60,9 +60,9 @@ In-Depth-Stuff:
                     record that is very good.The Structure of a Node is as follows:
 
                         Node{
-                            Function -----------The function that the Node contains, and will run X through.
-                            ChildNodes ---------The Branches connecting us to Nodes following our Node.
-                            ParentNodes --------The Branches connecting us to Nodes preceding our Node.
+                            nodeFunction -----------The function that the Node contains, and will run X through.
+                            childNodes ---------The Branches connecting us to Nodes following our Node.
+                            parentNodes --------The Branches connecting us to Nodes preceding our Node.
                             }
 
                 Branch:
